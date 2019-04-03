@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+.serch__bar{
+  height: 100px;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.serch{
+  height: 30px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+
+}
+.button{
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.card__list{
+  width: 100%;
+  height: auto;
+  background-color: blue;
+  display: flex;
+}
+.card{
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+  margin: 20px;
+  position: relative;
+}
+.card h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
